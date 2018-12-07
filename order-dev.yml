@@ -23,6 +23,8 @@ pagehelper:
   params: count=countSql
 env:
   dev
+lable:
+  release
 ORDER:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
