@@ -22,7 +22,7 @@ pagehelper:
   pageSizeZero: true
   params: count=countSql
 env:
-  test
+  test1
 ORDER:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
