@@ -23,7 +23,7 @@ pagehelper:
   params: count=countSql
 env:
   dev
-lable:
+label:
   release
 ORDER:
   ribbon:
