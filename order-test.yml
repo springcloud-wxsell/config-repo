@@ -27,5 +27,5 @@ ORDER:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 boy:
-  name: smith
+  name: wangwei
   age: 20
