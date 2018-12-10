@@ -28,4 +28,4 @@ ORDER:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 boy:
   name: jenny
-  age: 20
+  age: 18
