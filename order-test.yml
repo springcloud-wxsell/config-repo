@@ -26,3 +26,6 @@ env:
 ORDER:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+boy:
+  name: tom
+  age: 18
