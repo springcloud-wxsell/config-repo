@@ -1,0 +1,19 @@
+zuul:
+  routes:
+    #自定义规则, 将 /myProduct/product/list -> /product/proudct/list
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      #获取请求头中的cookie
+      sensitiveHeaders:
+
+#    #简洁写法
+#    product: /myProduct/**
+  #排除某些路由
+  ignored-patterns:
+    - /**/product/listForOrder
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
