@@ -1,3 +1,6 @@
+ribbon:
+  ReadTimeout: 5000
+  SocketTimeout: 5000
 zuul:
   routes:
     #自定义规则, 将 /myProduct/product/list -> /product/proudct/list
