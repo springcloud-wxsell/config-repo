@@ -2,6 +2,8 @@ ribbon:
   ReadTimeout: 5000
   SocketTimeout: 5000
 zuul:
+  #全部服务忽略敏感头信息(全部服务都可传递cookie)
+  sensitive-headers: 
   routes:
     #自定义规则, 将 /myProduct/product/list -> /product/proudct/list
     myProduct:
