@@ -29,6 +29,14 @@ pagehelper:
   support-methods-arguments: true
   pageSizeZero: true
   params: count=countSql
+#feign组件的超时时间
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
 env:
   dev
 label:
